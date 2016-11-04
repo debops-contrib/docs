@@ -1,0 +1,12 @@
+[submodule "docs/debops-contrib"]
+	path = docs/debops-contrib
+	url = https://github.com/debops-contrib/debops-contrib.git
+	ignore = untracked
+[submodule "docs/ansible/roles/ansible-firejail"]
+	path = docs/ansible/roles/ansible-firejail
+	url = https://github.com/debops-contrib/ansible-firejail.git
+	ignore = untracked
+[submodule "docs/ansible/roles/ansible-x2go_server"]
+	path = docs/ansible/roles/ansible-x2go_server
+	url = https://github.com/debops-contrib/ansible-x2go_server.git
+	ignore = untracked

@@ -1,0 +1,5 @@
+_build
+_bin
+includes/global.rst
+_lib/sphinxcontrib/debops/*
+!_lib/sphinxcontrib/debops/__init__.py

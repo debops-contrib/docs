@@ -1,0 +1,14 @@
+#!/bin/bash
+
+ROLE="$1"
+
+if [ -z "$ROLE" ]
+then
+    echo "Please specify the name of the new role as first parameter." 2>&1
+    echo "For example for \"debops-contrib.checkmk_server\" the role name would be \"checkmk_server\"" 2>&1
+    exit 0
+fi
+
+git submodule add "https://github.com/debops-contrib/ansible-${ROLE}.git" "docs/ansible/roles/ansible-${ROLE}"
+
+./patch_gitmodules
