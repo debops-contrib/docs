@@ -10,3 +10,19 @@
 	path = docs/ansible/roles/ansible-x2go_server
 	url = https://github.com/debops-contrib/ansible-x2go_server.git
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-apparmor"]
+	path = docs/ansible/roles/ansible-apparmor
+	url = https://github.com/debops-contrib/ansible-apparmor.git
+	ignore = untracked
+[submodule "docs/ansible/roles/ansible-btrfs"]
+	path = docs/ansible/roles/ansible-btrfs
+	url = https://github.com/debops-contrib/ansible-btrfs.git
+	ignore = untracked
+[submodule "docs/ansible/roles/ansible-fuse"]
+	path = docs/ansible/roles/ansible-fuse
+	url = https://github.com/debops-contrib/ansible-fuse.git
+	ignore = untracked
+[submodule "docs/ansible/roles/ansible-snapshot_snapper"]
+	path = docs/ansible/roles/ansible-snapshot_snapper
+	url = https://github.com/debops-contrib/ansible-snapshot_snapper.git
+	ignore = untracked
