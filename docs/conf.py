@@ -147,14 +147,15 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
     html_theme = 'sphinx_rtd_theme'
     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
-#  html_context = {
-#      'display_github': True,  # Add 'Edit on Github' link instead of 'View page source'
-#      'last_updated': True,
-#      'commit': False,
-#      'source_file_to_url_map': debops.get_source_file_to_url_map(
-#          skip_patterns=[],
-#      )
-#  }
+html_context = {
+    'display_github': True,  # Add 'Edit on Github' link instead of 'View page source'
+    'last_updated': True,
+    'commit': False,
+    'source_file_to_url_map': debops.get_source_file_to_url_map(
+        start_dir=os.path.dirname(__file__),
+        skip_patterns=[],
+    )
+}
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
