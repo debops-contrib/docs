@@ -11,18 +11,20 @@ and for examples you can checkout an up-to-date role from the `DebOps Status pag
 The links defined in `DebOps docs global.rst`_ can also be used for DebOps Contribs roles.
 The file gets injected into the docs build the same way as for DebOps_ itself.
 If you have additional links which fit into the file, you can add them to
-`debops/docs`_ and they your changes will also be available here.
+`debops/docs`_ and your changes will also be available here.
 Refer to `Use global link definitions <https://github.com/debops/docs/issues/155>`__
 for details.
 
-The :file:`readme.md` file which is used for GitHub and Ansible Galaxy can be
+The :file:`README.md` file which is used for GitHub and Ansible Galaxy can be
 generated using ansigenome_ and templates currently available here:
 https://github.com/ypid/ypid-ansible-common/tree/master/template_READMEs
 
 For bonus points, setup Travis CI tests for your role and import it on Ansible Galaxy.
 
-Feel free to add your role to:
-https://github.com/debops-contrib/docs
+Feel free to add your role to: https://github.com/debops-contrib/docs
+
+You can add a role by running :command:`./add_new_role checkmk_server`
+(replace ``checkmk_server`` with the name of the role).
 When you are member of the DebOps Contrib organization you should have write
 permissions to the repository and can merge your own pull request after the
 test for the PR passed.
