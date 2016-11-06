@@ -18,7 +18,6 @@ appearing here yet.
    debops-contrib/README
    adding-roles
    ansible/roles/index
-   ansible/roles/ansible-*/docs/index
 
 ..
  Local Variables:
