@@ -19,6 +19,9 @@ appearing here yet.
    adding-roles
    ansible/roles/index
 
+
+.. |debops_logo| image:: https://debops.org/images/debops-small.png
+
 ..
  Local Variables:
  mode: rst
