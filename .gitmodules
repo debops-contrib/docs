@@ -26,3 +26,6 @@
 	path = docs/ansible/roles/ansible-snapshot_snapper
 	url = https://github.com/debops-contrib/ansible-snapshot_snapper.git
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-kernel_module"]
+	path = docs/ansible/roles/ansible-kernel_module
+	url = https://github.com/debops-contrib/ansible-kernel_module.git
