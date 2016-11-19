@@ -18,6 +18,11 @@ appearing here yet.
    debops-contrib/README
    adding-roles
    ansible/roles/index
+   ansible/roles/ansible-*/docs/index
+
+
+.. Seems that includes don’t work for images? Define them here.
+.. |debops_logo| image:: https://debops.org/images/debops-small.png
 
 ..
  Local Variables:
