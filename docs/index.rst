@@ -21,6 +21,7 @@ appearing here yet.
    ansible/roles/ansible-*/docs/index
 
 
+.. Seems that includes don’t work for images? Define them here.
 .. |debops_logo| image:: https://debops.org/images/debops-small.png
 
 ..
