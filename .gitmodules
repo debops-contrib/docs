@@ -42,3 +42,7 @@
 	path = docs/ansible/roles/ansible-roundcube
 	url = https://github.com/debops-contrib/ansible-roundcube.git
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-gdnsd"]
+	path = docs/ansible/roles/ansible-gdnsd
+	url = https://github.com/debops-contrib/ansible-gdnsd.git
+	ignore = untracked
