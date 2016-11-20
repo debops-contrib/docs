@@ -34,3 +34,7 @@
 	path = docs/ansible/roles/ansible-checkmk_agent
 	url = https://github.com/debops-contrib/ansible-checkmk_agent.git
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-checkmk_server"]
+	path = docs/ansible/roles/ansible-checkmk_server
+	url = https://github.com/debops-contrib/ansible-checkmk_server.git
+	ignore = untracked
