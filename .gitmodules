@@ -38,3 +38,7 @@
 	path = docs/ansible/roles/ansible-checkmk_server
 	url = https://github.com/debops-contrib/ansible-checkmk_server.git
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-roundcube"]
+	path = docs/ansible/roles/ansible-roundcube
+	url = https://github.com/debops-contrib/ansible-roundcube.git
+	ignore = untracked
