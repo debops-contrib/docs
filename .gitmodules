@@ -50,3 +50,7 @@
 	path = docs/ansible/roles/ansible-etckeeper
 	url = https://github.com/debops-contrib/ansible-etckeeper.git
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-dropbear_initramfs"]
+	path = docs/ansible/roles/ansible-dropbear_initramfs
+	url = https://github.com/debops-contrib/ansible-dropbear_initramfs.git
+	ignore = untracked
