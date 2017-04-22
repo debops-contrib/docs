@@ -62,3 +62,7 @@
 	path = docs/ansible/roles/ansible-foodsoft
 	url = https://github.com/debops-contrib/ansible-foodsoft.git
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-homeassistant"]
+	path = docs/ansible/roles/ansible-homeassistant
+	url = https://github.com/debops-contrib/ansible-homeassistant.git
+	ignore = untracked
