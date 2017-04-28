@@ -66,3 +66,7 @@
 	path = docs/ansible/roles/ansible-homeassistant
 	url = https://github.com/debops-contrib/ansible-homeassistant.git
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-neurodebian"]
+	path = docs/ansible/roles/ansible-neurodebian
+	url = https://github.com/debops-contrib/ansible-neurodebian.git
+	ignore = untracked
